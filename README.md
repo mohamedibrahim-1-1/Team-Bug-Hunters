@@ -10,7 +10,7 @@ We are a group of passionate developers working together on Android projects usi
 - **Youssef Sayed**  
 - **Yehia Mohamed**  
 - **Ahmed Essam**
-- **Basmala Waheed**
+- **Basmala Wahid**
 - **Alyaa Osama**
 
 ---
