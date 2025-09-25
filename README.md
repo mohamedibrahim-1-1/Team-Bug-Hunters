@@ -29,6 +29,19 @@ We are building a **Movie Discovery App** that allows users to:
 
 ---
 
+## ⚡ Technologies
+- **Language:** Kotlin  
+- **UI Toolkit:** Jetpack Compose + Material Design 3  
+- **Networking:** Retrofit / OkHttp   
+- **Image Loading:** Coil  
+- **Architecture:** MVVM / Clean Architecture  
+- **Database (Optional):** Room (for caching/offline mode)  
+- **Version Control:** Git & GitHub  
+- **Testing:** Unit Testing + Compose UI Testing  
+- **Security:** Secure API key storage using `gradle.properties` (no hardcoded keys)  
+
+---
+
 ## 🗓️ Project Plan
 
 ### Week 1 – Project Setup & Core UI
