@@ -35,7 +35,7 @@ We are building a **Movie Discovery App** that allows users to:
 - **Networking:** Retrofit / OkHttp   
 - **Image Loading:** Coil  
 - **Architecture:** MVVM / Clean Architecture  
-- **Database (Optional):** Room (for caching/offline mode)  
+- **Database:** Room (for caching/offline mode)  
 - **Version Control:** Git & GitHub  
 - **Testing:** Unit Testing + Compose UI Testing  
 - **Security:** Secure API key storage using `gradle.properties` (no hardcoded keys)  
