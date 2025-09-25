@@ -31,7 +31,7 @@ We are building a **Movie Discovery App** that allows users to:
 
 ## ⚡ Technologies
 - **Language:** Kotlin  
-- **UI Toolkit:** Jetpack Compose + Material Design 3  
+- **UI Toolkit:** Jetpack Compose  
 - **Networking:** Retrofit / OkHttp   
 - **Image Loading:** Coil  
 - **Architecture:** MVVM / Clean Architecture  
