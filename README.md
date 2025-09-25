@@ -29,10 +29,21 @@ We are building a **Movie Discovery App** that allows users to:
 
 ---
 
+## ⚡ Functional Requirements  
+The app should allow users to:  
+- **Login / Sign Up** → Create a new account or sign in securely.  
+- **Browse Popular Movies** → View a grid/list of trending and top-rated movies.  
+- **Search Movies** → Find movies by title.  
+- **View Movie Details** → See title, synopsis, rating, release date, and poster.  
+- **Watch Movie Trailer** → Play official trailers inside the app (YouTube/embedded).  
+- **Add to Favorites** → Save movies to a personal favorites list.  
+
+---
+
 ## ⚡ Technologies
-- **Language:** Kotlin  
+- **Language:** Kotlin & XML
 - **UI Toolkit:** Jetpack Compose  
-- **Networking:** Retrofit / OkHttp   
+- **Networking:** Retrofit   
 - **Image Loading:** Coil  
 - **Architecture:** MVVM / Clean Architecture  
 - **Database:** Room (for caching/offline mode)  
@@ -42,68 +53,50 @@ We are building a **Movie Discovery App** that allows users to:
 
 ---
 
-## 🗓️ Project Plan
+## 🗓 Project Plan  
 
-### Week 1 – Project Setup & Core UI
-**Goals:**
-- Set up project structure in **Android Studio**.
-- Configure Gradle dependencies (**Jetpack Compose, Retrofit/OkHttp, Coroutines, Coil**, etc.).
-- Define app architecture (**MVVM** or **Clean Architecture**).
-- Create mock data to design UI without API.
-- Build core screens with Compose:
-  - **Home Screen** (list/grid of movies)
-  - **Movie Details Screen** (basic layout)
-- Navigation setup with **Navigation-Compose**.
+### Week 1: Design & Setup  
+- Set up project structure in Android Studio.  
+- Configure Gradle dependencies (Jetpack Compose, Retrofit, Coil, Coroutines).  
+- Create mock data to design UI without API.  
+- Build main screens with Jetpack Compose:  
+  - **Home Screen** (movie grid)  
+  - **Movie Details Screen**  
+- Navigation setup with Navigation-Compose.  
 
-✅ **Deliverable:** Functional app with navigation and mock UI for movie list & details.
+### Week 2: API & Data Layer  
+- Integrate **TMDB API** using Retrofit/OkHttp.  
+- Implement Repository & Data Models (MVVM/Clean Architecture).  
+- Use Coroutines + Flow for asynchronous calls.  
+- Replace mock data with real API responses.  
+- Handle loading and error states.  
 
----
+### Week 3: Features & Improvements  
+- Add **Search** functionality and optional filters/sorting.  
+- Implement pagination (infinite scroll).  
+- Enhance UI with **Material3** design and animations.  
+- Optional: Cache movies with Room for offline mode.  
 
-### Week 2 – API Integration & Data Layer
-**Goals:**
-- Connect to the chosen API (**TMDB API**).
-- Implement **Retrofit** for network calls.
-- Set up data layer (**Repositories, DTOs, Models**).
-- Use **Coroutines + Flow** for async data.
-- Replace mock data with real API responses.
-- Implement error handling & loading states.
-
-✅ **Deliverable:** Movie list fetched from API and displayed in the Home Screen.
-
----
-
-### Week 3 – Features & State Management
-**Goals:**
-- Implement **search functionality** (search movies by name).
-- Add filtering/sorting (optional).
-- Integrate **pagination** (infinite scroll).
-- Improve UI with **Material3** design.
-- Apply proper state handling (using **StateFlow** or **ViewModel**).
-- Cache data with **Room** (optional, for offline mode).
-
-✅ **Deliverable:** Searchable, filterable movie list with smooth scrolling and polished UI.
+### Week 4: Final Touches & Release  
+- Unit testing (ViewModel & Repository).  
+- UI testing with Compose.  
+- Optimize performance (lazy grids, image loading).  
+- Add **Splash Screen** & App Icon.  
+- Prepare Play Store–ready build.
 
 ---
 
-### Week 4 – Testing, Polish & Deployment
-**Goals:**
-- Unit tests for **ViewModel** & **Repository**.
-- UI tests with **Compose Testing**.
-- Optimize performance (lazy grids, image loading).
-- Improve UX (skeleton loaders, error dialogs).
-- Add **splash screen** & app icon.
-- Prepare Play Store-ready build (if needed).
+## 📌 Team Responsibilities  
 
-✅ **Deliverable:** Fully functional, tested, and polished Movie Discovery app.
+### Week 1: Design & Setup  
+👨‍🎨 Mohamed Ibrahim & Youssef Sayed → UI/UX Design, Jetpack Compose Screens  
 
----
+### Week 2: API & Data Layer  
+🗄️ Yehia Mohamed & Ahmed Essam → API Integration, Repository & Data Models  
 
-## 🔧 Team Members' Tasks
-1. **Mohamed Ibrahim & Youssef Sayed**  
-   Responsible for UI and Jetpack Compose (Home screen, Detail screen, theming).
+### Week 3: Features & Improvements  
+⚙️ Mohamed Ibrahim & Youssef Sayed → Search, Pagination, State Management  
 
-2. **Yehia Mohamed & Ahmed Essam**  
-   Responsible for backend development, data layer, and API integration with Retrofit/Coroutines.
+### Week 4: Final Touches & Release  
+✨ Basmala Wahid & Alyaa Osama → Testing, Animations, Polishing, Multi-device Testing  
 
-3. **Basmala Wahid & Alyaa Osama**  
-   Responsible for testing, documentation, animations, and UI polish.
